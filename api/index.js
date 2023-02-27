@@ -11,38 +11,7 @@ const app = express();
 app.use(cors());
 app.use(json());
 
-let notes = [
-  {
-    id: nanoid(),
-    title: 'Note 1',
-    description: 'Description 1',
-    color: "blue",
-  },
-  {
-    id: nanoid(),
-    title: 'Note 2',
-    description: 'Description 2',
-    color: "pink",
-  },
-  {
-    id: nanoid(),
-    title: 'Note 3',
-    description: 'Description 3',
-    color: "purple",
-  },
-  {
-    id: nanoid(),
-    title: 'Note 4',
-    description: 'Description 4',
-    color: "yellow",
-  },
-  {
-    id: nanoid(),
-    title: 'Note 5',
-    description: 'Description 5',
-    color: "green",
-  },
-];
+let notes = [];
 
 app.get('/notes', (req, res) =>{
  

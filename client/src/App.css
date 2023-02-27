@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+    width: 75%;
+    margin: 30px auto ;
+}
+.App{
+    background-color: rgb(184, 178, 178);
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+.formSection{
+    margin-top: 25px;
+}
+.appTitle{
+    padding-top: 25px;
+}
+.formSection input{
+    width: 50%;
+    height: 25px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+.formSection textarea{
+    width: 50%;
+    height: 100px;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.addMenuSection{
+    display: flex;
+    justify-content: center;
+}
+.addMenu{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 30px;
+    width: 50%;
+}
+.selectColor{
+    display: flex;
+    gap: 10px;
+}
+.colorCircle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.addButton{
+    background-color: rgb(1, 88, 1);
+    padding: 10px;
+    color: azure;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addButton:hover{
+    background-color: rgb(112, 174, 12);
+    color: black;
+}
+.noteCardSection{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    width: 25%;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+}
+.cardTitle{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 5px auto ;
+}
+.cardDescription{
+    font-size: 18px;
+}
+.cardFooter{
+    background-color: red;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 550;
+    color: azure;
+    cursor: pointer;
+}
+.filterInput{
+    margin: 15px 0 30px 0;
+    width: 50%;
+    height: 25px;
+    border: 0;
+    border-radius: 5px;
+}
+.blue{
+    background-color: blue;
+    color: azure;
+}
+.pink{
+    background-color: rgb(199, 142, 152);
+}
+.purple{
+    background-color: purple;
+    color: azure;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+    color: azure;
+}
